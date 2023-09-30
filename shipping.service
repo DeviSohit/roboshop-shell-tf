@@ -3,7 +3,7 @@ Description=Shipping Service
 
 [Service]
 User=roboshop
-Environment=CART_ENDPOINT=cart.devidevops.online:8080
+Environment=CART_ENDPOINT=cart.app.devidevops.online:8080
 Environment=DB_HOST=mysql.devidevops.online
 ExecStart=/bin/java -jar /app/shipping.jar
 SyslogIdentifier=shipping
